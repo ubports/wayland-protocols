@@ -5,7 +5,8 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: Héctor Orón Martínez <zumbi@debian.org>,
            Emilio Pozuelo Monfort <pochu@debian.org>
 Build-Depends:
- debhelper (>=10),
+ debhelper,
+ dh-autoreconf,
  libwayland-dev,
  pkg-config
 Standards-Version: 4.1.1
